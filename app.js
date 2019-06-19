@@ -3,6 +3,6 @@ const express = require('express');
 
 const app = express();
 
-const servr = http.createServer(app);
+const server = http.createServer(app);
 
-servr.listen(3000);
+server.listen(3000);
